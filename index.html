@@ -31,11 +31,17 @@
 		if(page == 'mapy') {
 			return '<a href="mapy.html">MAPY</a>';
 		}
+		if(page == 'bird') {
+			return '<a href="rumtp.html">R.U.M.T.P.</a>';
+		}
 	}
 	
 	function getPage(i, j) {
 		if(page[0] == 6 && page[1] == 0) {
 			return getPageSource('mapy');
+		}
+		if(page[0] == 1 && page[1] == 1) {
+			return getPageSource('bird');
 		}
 		return '' + i + ' ' + j;
 	}
