@@ -51,6 +51,7 @@
 		img.src = "img/" + imagesFiles[newImg][images[newImg]];
 		page = [newImg, images[newImg]];
 		document.getElementById("output").innerHTML = getPage(page[0],page[1]);
+		return false;
 	}
 	
 </script>
@@ -60,17 +61,17 @@
 		<div id="cx-gate"></div>
 
 		<div id="cx-left">
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 0);"		onmouseout=""	class="menuImage" src="img/flower.jpg" ></a></div>
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 1);"		onmouseout=""	class="menuImage" src="img/bird.jpg" ></a></div>
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 2);"		onmouseout=""	class="menuImage" src="img/laptop.jpg" ></a></div>
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 3);"		onmouseout=""	class="menuImage" src="img/phone.jpg" ></a></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 0);"	onmouseout=""	class="menuImage" src="img/flower.jpg" ></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 1);"	onmouseout=""	class="menuImage" src="img/bird.jpg" ></a></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 2);"	onmouseout=""	class="menuImage" src="img/laptop.jpg" ></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 3);"	onmouseout=""	class="menuImage" src="img/phone.jpg" ></div>
 		</div>
 
 		<div id="cx-right">
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 4);"	onmouseout=""	class="menuImage" src="img/palm.jpg" ></a></div>
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 5);"	onmouseout=""	class="menuImage" src="img/pineapple.jpg" ></a></div>
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 6);"	onmouseout=""	class="menuImage" src="img/sunset.jpg" ></a></div>
-			<div class="cxf" onmouseover="" onmouseout=""><a class="menuLink" href="" onclick="return false;">	<img onmouseover="pictureChange(this, 7);"	onmouseout=""	class="menuImage" src="img/fish.jpg" ></a></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 4);"	onmouseout=""	class="menuImage" src="img/palm.jpg" ></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 5);"	onmouseout=""	class="menuImage" src="img/pineapple.jpg" ></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 6);"	onmouseout=""	class="menuImage" src="img/sunset.jpg" ></div>
+			<div class="cxf" onmouseover="" onmouseout=""><img onclick="pictureChange(this, 7);"	onmouseout=""	class="menuImage" src="img/fish.jpg" ></div>
 		</div>
 
 		<div id="top-margin">
